@@ -19,4 +19,3 @@ io.on("connect",(socket)=>{
         socket.broadcast.emit("user-left",name)
     })
 })
-console.log("Server is running on port 8000")
