@@ -1,4 +1,4 @@
-const socket = io("http://localhost:8000")
+const socket = io("https://chatapp-4o5i.onrender.com")
  
 const name = prompt("Enter You Name to Join the Chat")
 socket.emit("user-joined",name)
