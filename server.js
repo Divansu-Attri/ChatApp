@@ -1,5 +1,5 @@
 const io = require("socket.io")(8000,{
-    cors:"http://127.0.0.1:5500/View/index.html"
+    cors:"https://chat-app-lac-chi-30.vercel.app"
 })
 const users = {}
 
